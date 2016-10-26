@@ -27,6 +27,7 @@ public class GameView extends View {
     private SpriteObject character;
     private Context context;
     long startTime = 0;
+    long startTim2e = 0;
     private int move=5;
     int szer = getResources().getDisplayMetrics().widthPixels;
     int wys = getResources().getDisplayMetrics().heightPixels;
